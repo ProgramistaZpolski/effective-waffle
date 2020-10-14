@@ -8,12 +8,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://programistazpolski.ct8.pl/todo">
+    <a href="http://programistazpolski.ct8.pl/devchallenge/404-not-found/">
       Demo
     </a>
     <span> | </span>
     <a href="https://{your-url-to-the-solution}">
-      Solution
+      Solution (NOT AVALIVLE YET)
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
