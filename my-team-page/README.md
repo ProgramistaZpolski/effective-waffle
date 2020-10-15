@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/ProgramistaZpolski/effective-waffle/master/my-team-page/Screenshot%20from%202020-10-15%2009-23-30.png)
 
 This is my second devchallenges project. During this project, I learned more about media queries - which are practically the only way you can make "position: absolute" elements responsive. And i used a lot media queries. I really need to stop using media queries and look for more responsive methods. The style.css file is 77,50% media queries! Also, I started to re-use classes. For example, instead of writing ```"font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Commissioner', sans-serif;"``` to every element I wanted in sans-serif, i just used the "text-sans" class. 
 
