@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Interior</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;700&family=Montserrat:wght@300;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <ul class="text-mount text-500">
+            <li style="border: 1px solid #ffffff; font-size: 15px;"><a class="text-200 text-crimson">THIS INTERIOR</a>
+            </li>
+            <div class="desktop-topbar">
+                <li style="float:right"><a href="#">Contact</a></li>
+                <li style="float:right"><a href="#">About</a></li>
+                <li style="float:right"><a href="#">Collection</a></li>
+                <li style="float:right"><a class="active text-700" href="#">Home</a></li>
+            </div>
+            <div class = "mobile-topbar">
+                <img src = "list-bold.svg" onclick = "showMobileTopbar();" alt = "Show the topbar" style="width: 50px; float: right;">
+            </div>
+            <div class = "mobile-topbar-options" id = 'thebar'>
+                <li><a class="active text-700" href="#" style="padding: 0; ">Home</a></li>
+                <li><a href="#" style="padding: 0;">Collection</a></li><br>
+                <li><a href="#" style="padding: 0;">About</a></li><br>
+                <li><a href="#" style="padding: 0;">Contact</a></li><br>
+            </div>
+        </ul>
+    </div>
+    <main>
+        <div style="float:left;">
+            <h1 class="text-400 text-lora" style="font-size: 50px;padding-left:100px;padding-top:50px;">Modern interior
+            </h1>
+            <h3 class="text-300 text-mount" style="width: 500px;font-size: 25px;padding-left: 100px;">A full-Service
+                residential &
+                commercial interior design and staging company offering professional organizing & eco-services.</h3>
+            <h3 class="text-600 text-mount" style="padding-left: 100px; cursor: pointer;">Read more <img
+                    src="arrow-right-bold.svg" alt="arrow" style="width: 25px; position: relative; top: 5px;"></h3>
+        </div>
+        <div style="float: right;">
+            <img src="photo1.png" id = "bigimg" alt="Photo of a interior" style="width: 1000px; padding-right:75px;">
+            <div class="floated-card">
+                <div style="padding-top:15px;">
+                    <img src="photo2.png" alt="Aliza Webber" style="border-radius: 50%;margin-left:25px;">
+                    <div style="float: right;padding-right:150px;">
+                        <h3 class="text-mount text-500">Aliza Webber</h3>
+                        <h4 class="text-mount text-500" style="color: #828282;">Interior designer</h4>
+                    </div><br>
+                </div>
+                <h2 class="text-lora text-700" style="width: 287px;
+                height: 62px;margin-left: 25px;">Designed in 2020 by Aliza Webber</h2>
+            </div>
+        </div>
+    </main>
+    <footer class="text-mount text-600">
+        Piotr Badełek / ProgramistaZpolski @ DevChallenges.io
+    </footer>
+    <script>
+        function showMobileTopbar(){
+            if (document.getElementById("thebar").style.display == "none"){
+                document.getElementById("thebar").style.display = "grid";
+            }
+            else{
+                document.getElementById("thebar").style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
