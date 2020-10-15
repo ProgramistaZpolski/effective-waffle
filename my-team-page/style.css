@@ -1,0 +1,289 @@
+body{
+    font-family: 'PT Serif', 'Piazzolla', serif;
+    background-color: #FAFAFA;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-general{
+    font-weight: normal;
+}
+.text-sans{
+    font-family: 'Poppins', 'Ubuntu', 'Open Sans', 'Commissioner', sans-serif;
+}
+.topbox{
+    display: flex;
+}
+.topbox-right{
+    left: 55%;
+    position: relative;
+    width: 500px;
+}
+.card img{
+    width: 238px;
+    height: 341px;
+    border-radius: 2px;
+}
+.card h5 {
+	transform: rotate(90deg);
+	position: absolute;
+	width: 202px;
+	height: 16px;
+	left: 150px;
+	top: 70px;
+}
+.card{
+    position: absolute;
+    width: 264px;
+    height: 383px;
+}
+.normal-height-card{
+    top: 230px;
+}
+.secondary-height-card{
+    top: 360px;
+}
+.down-normal-height-card{
+    top: 730px;
+}
+.down-secondary-height-card{
+    top: 860px;
+}
+.row1-card{
+    left: 278px;
+}
+.row2-card{
+    left: 778px;
+}
+.row3-card{
+    left: 1278px;
+}
+footer{
+    position: absolute;
+    top: 140%;
+    left: 37%;
+}
+@media (max-width: 1280px) {
+    .topbox-right {
+        left: 35%;
+    }
+    .row1-card{
+        left: 80px;
+    }
+    .row2-card{
+        left: 550px;
+    }
+    .row3-card{
+        left: 1020px;
+    }
+}
+@media (max-height: 900px) {
+    footer{
+        top: 155%;
+        left: 35%;
+    }
+}
+@media (max-width: 1150px) {
+    .topbox-right {
+        left: 27%;
+    }
+    .row1-card{
+        left: 50px;
+    }
+    .row2-card{
+        left: 450px;
+    }
+    .row3-card{
+        left: 850px;
+    }
+}
+@media (max-width: 1068px) {
+    .topbox-right {
+        left: 25%;
+    }
+    .row1-card{
+        left: 40px;
+    }
+    .row2-card{
+        left: 400px;
+    }
+    .row3-card{
+        left: 800px;
+    }
+    footer{
+        top: 177% !important;
+        left: 30% !important;;
+    }
+}
+@media (max-height: 800px) {
+    footer{
+        top: 160%;
+        left: 33%;
+    }
+}
+@media (max-width: 900px) {
+    .topbox-right {
+        left: 8%;
+    }
+    .row1-card{
+        left: 25px;
+    }
+    .row2-card{
+        left: 320px;
+    }
+    .row3-card{
+        left: 625px;
+    }
+    .card{
+        width: 200px;
+        height: 350px;
+    }
+    .card img{
+        width: 200px;
+        height: 303px;
+    }
+    .card h2{
+        margin: 0;
+    }
+    .card h5{
+        width: 202px;
+	    height: 16px;
+	    left: 113px;
+	    top: 71px;
+    }
+}
+@media (max-height: 630px) {
+    footer{
+        top: 200%;
+        left: 27%;
+    }
+}
+@media (max-width: 500px) {
+    .normal-height-card{
+        top: 230px;
+    }
+    .secondary-height-card{
+        top: 360px;
+    }
+    .down-normal-height-card{
+        top: 730px;
+    }
+    .down-secondary-height-card{
+        top: 860px;
+    }
+    .topbox{
+        display: block;
+    }
+    .topbox-right {
+        left: 0px;
+        width: 450px;
+    }
+    .row1-card{
+        left: 10px;
+    }
+    .row2-card{
+        left: 250px;
+    }
+    #card-shae{
+        left: 10px;
+        top: 630px;
+    }
+    #card-skylah{
+        left: 250px;
+        top: 730px;
+    }
+    #card-griff{
+        left: 10px;
+        top: 960px;
+    }
+    #card-stan{
+        left: 250px;
+        top: 1070px;
+    }
+    .card{
+        width: 200px;
+        height: 350px;
+    }
+    .card img{
+        width: 170px;
+        height: 243px;
+    }
+    .card h2{
+        margin: 0;
+    }
+    .card h5{
+        width: 202px;
+	    height: 16px;
+	    left: 83px;
+	    top: 75px;
+    }
+    footer{
+        top: 200%;
+        left: 1%;
+    }
+}
+@media (max-width: 375px) {
+    .normal-height-card{
+        top: 230px;
+    }
+    .secondary-height-card{
+        top: 360px;
+    }
+    .down-normal-height-card{
+        top: 730px;
+    }
+    .down-secondary-height-card{
+        top: 860px;
+    }
+    .topbox{
+        display: block;
+    }
+    .topbox-right {
+        left: 0px;
+        width: 450px;
+    }
+    .row1-card{
+        left: 5px;
+    }
+    .row2-card{
+        left: 200px;
+    }
+    #card-shae{
+        left: 5px;
+        top: 560px;
+    }
+    #card-skylah{
+        left: 200px;
+        top: 670px;
+    }
+    #card-griff{
+        left: 5px;
+        top: 880px;
+    }
+    #card-stan{
+        left: 200px;
+        top: 960px;
+    }
+    .card{
+        width: 200px;
+        height: 350px;
+    }
+    .card img{
+        width: 145px;
+        height: 220px;
+    }
+    .card h2{
+        margin: 0;
+        font-size: 18px;
+    }
+    .card h5{
+        width: 202px;
+	    height: 16px;
+	    left: 55px;
+	    top: 73px;
+    }
+    footer{
+        top: 180%;
+        left: 1%;
+    }
+}
