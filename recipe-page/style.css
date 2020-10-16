@@ -1,0 +1,160 @@
+.text-mont{
+    font-family: 'Montserrat', 'Poppins', 'Nunito', 'Ubuntu', 'Open Sans', 'Commissioner', 'Oxygen', 'Work Sans', 'Sora', sans-serif;
+}
+.text-play{
+    font-family: 'Playfair Display', 'Lora', 'PT Serif', 'Piazzolla', 'Crimson Pro', serif;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-400{
+    font-weight: 400;
+}
+.text-500{
+    font-weight: 500;
+}
+.text-600{
+    font-weight: 600;
+}
+.text-700{
+    font-weight: 700;
+}
+body{
+    font-family: 'Montserrat', 'Poppins', 'Nunito', 'Ubuntu', 'Open Sans', 'Commissioner', 'Oxygen', sans-serif;
+    padding-left: 234px;
+}
+header span{
+    font-size: 14px; width: 592px; display: block; position: relative; left: 25px; top: -18px; color: #4F4F4F;
+}
+#midphoto{
+    width: 969px;
+    height: 444px;
+    border-radius: 12px;
+}
+.sidebar{
+    width: 230px;
+    height: 367px;
+    float: right;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    display: block;
+    margin-right: 240px;
+}
+.item-sidebar img{
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+.item-sidebar{
+    padding-right: 40px;
+    width: 122px;
+    height: 34px;
+    padding-left: 40px;
+}
+.text-item-sidebar h6{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    margin-bottom: -15px;
+    margin-top: 0;
+}
+.text-item-sidebar h4{
+    font-size: 14px;
+}
+.text-item-sidebar{
+    float: right;
+}
+.break-sidebar{
+    width: 230px;
+    height: 34px;
+}
+.main-recipe{
+    float: left;
+}
+.instruction-numeration{
+    background-color: #F2994A;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-radius: 6px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+footer{
+    text-align: center;
+    color: #A9A9A9;
+    position: relative;
+    top: 2500px;
+}
+@media (max-width: 600px) {
+    body{
+        padding: 0;
+    }
+    #midphoto{
+        width: 352px;
+        height: 213.83px;
+    }
+    #textundertitle{
+        width: 320px;
+    }
+    #maxwdh1{
+        width: 420px !important;
+    }
+    #maxwdh2{
+        width: 420px !important;
+    }
+    .thatinstructiontext{
+        width: 400px !important;
+    }
+    .sidebar{
+        box-shadow: none;
+        float: none;
+        margin: 0;
+        display: inline;
+        width: 430px;
+    }
+    .break-sidebar{
+        width: 10px;
+        height: 10px;
+    }
+    .item-sidebar{
+        position: relative;
+    }
+    #elem1{
+        top: 0px;
+    }
+    #elem2{
+        top: -50px;
+        left: 200px;
+    }
+    #elem3{
+        top: 40px;
+    }
+    #elem3 .text-item-sidebar{
+        position: relative;
+        top: -15px;
+        left: -10px;
+    }
+    #elem4{
+        top: 0px;
+        left: 200px;
+    }
+    #elem4 .text-item-sidebar{
+        position: relative;
+        top: -25px;
+        left: -5px;
+    }
+}
+@media (max-width: 1300px) {
+    body{
+        padding-left: 150px;
+    }
+    .sidebar{
+        margin-right: 40px;
+    }
+    #midphoto{
+        width: 879px;
+        height: 404px;
+    }
+}
