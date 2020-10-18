@@ -1,0 +1,335 @@
+body {
+    font-family: 'Montserrat', 'Open Sans', 'Product Sans', 'Ubuntu', 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    padding-top: 64px;
+    padding-left: 240px;
+}
+
+.floater-left {
+    padding-top: 50px;
+    float: left;
+}
+
+.floater-right {
+    float: right;
+    width: 483px;
+    height: 585px;
+    background: #F2F2F2;
+    margin-right: 100px;
+    border-radius: 12px;
+}
+
+.input-grouping input {
+    position: relative;
+    left: 10px;
+    height: 95%;
+    border: none;
+    width: 415px;
+    font-family: 'Montserrat', 'Open Sans', 'Product Sans', 'Ubuntu', 'Poppins', sans-serif;
+}
+
+.input-grouping img {
+    width: 24px;
+    position: relative;
+    left: 10px;
+    bottom: -6px;
+    z-index: 15;
+    filter: invert(52%) sepia(0%) saturate(312%) hue-rotate(142deg) brightness(98%) contrast(84%);
+}
+
+.input-grouping {
+    width: 465px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.input-grouping-diff select {
+    position: relative;
+    left: 10px;
+    height: 95%;
+    border: none;
+    width: 215px;
+    background-color: white;
+    font-family: 'Montserrat', 'Open Sans', 'Product Sans', 'Ubuntu', 'Poppins', sans-serif;
+}
+
+.input-grouping-diff img {
+    width: 24px;
+    position: relative;
+    left: 10px;
+    bottom: -6px;
+    z-index: 15;
+    filter: invert(52%) sepia(0%) saturate(312%) hue-rotate(142deg) brightness(98%) contrast(84%);
+}
+
+.input-grouping-diff {
+    width: 265px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.input-grouping-diff2 input {
+    position: relative;
+    left: 10px;
+    height: 95%;
+    border: none;
+    width: 215px;
+    background-color: white;
+    font-family: 'Montserrat', 'Open Sans', 'Product Sans', 'Ubuntu', 'Poppins', sans-serif;
+}
+
+.input-grouping-diff2 img {
+    width: 24px;
+    position: relative;
+    left: 10px;
+    bottom: -6px;
+    z-index: 15;
+    filter: invert(52%) sepia(0%) saturate(312%) hue-rotate(142deg) brightness(98%) contrast(84%);
+}
+
+.input-grouping-diff2 {
+    width: 265px;
+    height: 56px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    left: -75px;
+    position: relative;
+}
+
+.inlinethis {
+    display: flex;
+}
+
+.floater-right img {
+    border-radius: 13px;
+    width: 134.21px;
+    height: 136.27px;
+}
+
+.sidetext {
+    display: flex;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 21px 80px 32px;
+    gap: 0px 0px;
+    grid-template-areas: "Title Title" "NewPrice OldPrice" "Counter Counter";
+    float: right;
+}
+
+.Title {
+    grid-area: Title;
+}
+
+.NewPrice {
+    grid-area: NewPrice;
+    color: #F2994A;
+}
+
+.OldPrice {
+    grid-area: OldPrice;
+    font-size: 12px;
+    color: #4E5150;
+    text-decoration: line-through;
+}
+
+.Counter {
+    grid-area: Counter;
+}
+
+.floater-item {
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+separator {
+    width: 390px;
+    height: 0px;
+    border: 1px solid #BDBDBD;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    .floater-right {
+        float: none;
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    .floater-right {
+        float: none;
+        width: 355px;
+    }
+    .Title {
+        grid-area: Title;
+        font-size: 12px;
+    }
+    .NewPrice {
+        grid-area: NewPrice;
+        color: #F2994A;
+        font-size: 14px;
+    }
+    .floater-right img {
+        width: 122.75px;
+        height: 124.64px;
+    }
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 18px 60px 26px;
+        gap: 0px 0px;
+        grid-template-areas: "Title Title" "NewPrice OldPrice" "Counter Counter";
+        float: right;
+    }
+    .Counter {
+        grid-area: Counter;
+        width: 150px;
+    }
+    .input-grouping {
+        width: 350px;
+    }
+    .input-grouping input {
+        width: 300px;
+    }
+    .input-grouping-diff {
+        width: 165px;
+    }
+    .input-grouping-diff select {
+        width: 105px;
+    }
+    .input-grouping-diff2 {
+        width: 165px;
+        height: 56px;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .input-grouping-diff2 input {
+        width: 105px;
+        height: 56px;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    #superbuton {
+        position: static !important;
+        margin: 0 !important;
+    }
+    separator {
+        width: 290px;
+        height: 0px;
+        border: 1px solid #BDBDBD;
+        display: block;
+    }
+    #serp1 {
+        left: 25px !important;
+    }
+    #serp2 {
+        left: 25px !important;
+    }
+    #totalprice {
+        top: 0px !important;
+    }
+    #shipit {
+        left: -150px !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    main {
+        padding-top: 32px;
+        padding-left: 60px;
+        margin: 0;
+    }
+    .input-grouping {
+        width: 375px;
+    }
+    .floater-right {
+        width: 403px;
+    }
+    .input-grouping input {
+        width: 325px;
+    }
+    .floater-right img {
+        width: 122.75px;
+        height: 124.64px;
+    }
+    .input-grouping-diff {
+        width: 185px;
+    }
+    .input-grouping-diff select {
+        width: 125px;
+    }
+    .input-grouping-diff2 {
+        width: 185px;
+        height: 56px;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .input-grouping-diff2 input {
+        width: 145px;
+        height: 56px;
+        border: 1px solid #828282;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .Counter {
+        grid-area: Counter;
+        width: 110px;
+    }
+    #sendhelp {
+        width: 240.533px;
+    }
+    #leviimg {
+        right: 0px !important;
+    }
+    #levicontainer {
+        margin-top: -130px;
+        position: relative;
+        left: 30px;
+    }
+    #serp2 {
+        left: 5px !important;
+        top: 385px !important;
+    }
+    #serp1 {
+        left: 5px !important;
+        top: 445px !important;
+    }
+    #ohnoes {
+        top: 165px !important;
+    }
+    #totaltext {
+        float: left;
+        position: relative;
+        top: -60px;
+        left: 100px;
+    }
+    footer{
+        margin-top: 1000px;
+    }
+}
+
+footer {
+    color: #A9A9A9;
+    margin-top: 1000px;
+}
