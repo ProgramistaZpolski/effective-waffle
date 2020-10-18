@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/ProgramistaZpolski/effective-waffle/master/checkout-page/Screenshot%20from%202020-10-18%2015-40-47.png)
 
 This is my 6th devchallenges project. I'm not quite satisfied with the look of this website. I wrote some javascript code to calculate
 the price of the items in the basket.
