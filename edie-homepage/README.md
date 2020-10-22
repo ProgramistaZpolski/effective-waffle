@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/ProgramistaZpolski/effective-waffle/master/edie-homepage/Screenshot%20from%202020-10-22%2020-40-32.png)
 
 I really don't know what to write there. Please just click on the "demo" link.
 ### Built With
