@@ -12,8 +12,8 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution (Not avalible yet)
+    <a href="https://devchallenges.io/solutions/3jpjXgKKLVhR9AMsmoUJ">
+      Solution
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
