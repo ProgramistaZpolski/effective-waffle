@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/ProgramistaZpolski/effective-waffle/master/portfolio/Screenshot%20from%202020-10-24%2009-55-54.png)
 
 This has been one of the easiest projects for me. I only spent around 5 minutes working on responsivness!
 
@@ -42,6 +42,15 @@ This has been one of the easiest projects for me. I only spent around 5 minutes 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
+
+User story: I can see personal details
+User story: I can see skills
+User story: I can see projects
+User story: I can filter projects by tag
+User story: I can see hobbies or certificates
+User story (optional): I can see experiences
+User story (optional): I can see projects on different pages
+
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the given user stories.
 
