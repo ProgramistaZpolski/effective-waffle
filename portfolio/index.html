@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="card card-max-width card-profile">
+      <img src="profile.png" alt="Profile Picture">
+      <div class="floater-right">
+        <h1 style="font-weight: 600;">Piotr Badełek</h1>
+        <h3>Full Stack developer</h3>
+        <h4>A developer from Poland - insert some description there<br>
+        <br>
+        Contact: <a href = "mailto:piotrbadelek@protonmail.com">piotrbadelek@protonmail.com</a>
+        </h4>
+      </div>
+    </div>
+    <div class="cards-left">
+      <div class="card card-half-width">
+        <h2 style="font-weight: 700;">FRONT END</h2>
+        <div onmouseover="hoverPrecent('html')" onmouseout="deHoverPrecent('html')">
+          <p class="progress-text" id="html-progress-text">HTML</p>
+          <div class="progress-bar">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: htmlSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('css')" onmouseout="deHoverPrecent('css')">
+          <p class="progress-text" id="css-progress-text">CSS</p>
+          <div class="progress-bar">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: cssSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('js')" onmouseout="deHoverPrecent('js')">
+          <p class="progress-text" id="js-progress-text">JavaScript</p>
+          <div class="progress-bar" style="width: 395px;margin-left: 55px;">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: jsSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('bootstrap')" onmouseout="deHoverPrecent('bootstrap')">
+          <p class="progress-text" id="bootstrap-progress-text">Bootstrap</p>
+          <div class="progress-bar" style="width: 395px;margin-left: 55px;">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: bootstrapSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('jquery')" onmouseout="deHoverPrecent('jquery')">
+          <p class="progress-text" id="jquery-progress-text">jQuery</p>
+          <div class="progress-bar" style="width: 395px;margin-left: 55px;">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: jquerySkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="card card-half-width">
+        <h2 style="font-weight: 700;">BACK END</h2>
+        <div onmouseover="hoverPrecent('php')" onmouseout="deHoverPrecent('php')">
+          <p class="progress-text" id="php-progress-text">PHP</p>
+          <div class="progress-bar">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: phpSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('nodejs')" onmouseout="deHoverPrecent('nodejs')">
+          <p class="progress-text" id="nodejs-progress-text">NodeJS</p>
+          <div class="progress-bar" style="width: 395px;margin-left: 55px;">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: nodejsSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+        <div onmouseover="hoverPrecent('mysql')" onmouseout="deHoverPrecent('mysql')">
+          <p class="progress-text" id="mysql-progress-text">MySQL</p>
+          <div class="progress-bar" style="width: 395px;margin-left: 55px;">
+            <span class="bar">
+              <span class="progress" style="
+                          animation-name: mysqlSkills;
+                          animation-iteration-count: 1;
+                          animation-duration: 3s;
+                          animation-fill-mode: forwards;
+                        "></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cards-right">
+      <div class="card card-half-width" style="text-align: center;">
+        <h1 style="color: #4F4F4F;">Experiences</h1>
+        <img src="school-black-36dp.svg" alt="Learning" style="margin-top: 25px;">
+        <h2 style="margin-bottom: 19.92px;padding-bottom: 25px;">Still learning...</h2>
+      </div>
+      <div class="card card-half-width" style="text-align: center;">
+        <h1 style="color: #4F4F4F;">Hobbies</h1>
+        <img src="work-731198_1280.jpg" style="border-radius: 10px; width: 430px; height: 240px; " alt="programming">
+        <h2 style="color: #333333; margin-top: 0;">Programming</h2>
+      </div>
+    </div>
+    <div class="card card-max-width padding-deleter" style="float: left; margin-left: 380px;">
+      <h2>Projects (9)</h2>
+      <button onclick = "changePage('nojs');">Vanilla HTML/CSS</button>
+      <button onclick = "changePage('js');">Vanilla HTML/CSS/JS</button><br>
+      <button onclick="changePage('next');">Next page</button>
+      <button onclick="changePage('back');">Back page</button>
+    </div>
+    <div class="padding-deleter" style="float: left; margin-left: 380px;">
+      <div class="project-card" id = "card1">
+        <img src="img/product1.webp" id = "card1-img" alt="404 page">
+        <p id = "card1-p">Vanilla HTML/CSS</p>
+        <h1 id = "card1-h1">404 Page</h1>
+        <button id = "card1-button" onclick="projectRedirecter('404');">See more</button>
+      </div>
+      <div class="project-card" id = "card2">
+        <img id = "card2-img" src="img/product2.webp" alt="404 page">
+        <p id = "card2-p">Vanilla HTML/CSS</p>
+        <h1 id = "card2-h1">Team Page</h1>
+        <button id = "card2-button" onclick="projectRedirecter('team');">See more</button>
+      </div>
+      <div class="project-card" id = "card3">
+        <img id = "card3-img" src="img/product3.webp" alt="404 page">
+        <p id = "card3-p">Vanilla HTML/CSS/JS</p>
+        <h1 id = "card3-h1">Interior Consultant</h1>
+        <button id = "card3-button" onclick="projectRedirecter('consultant')">See more</button>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
