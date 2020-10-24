@@ -1,0 +1,168 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+.text-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+pre {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    color: #333333;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+MyButton {
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    width: 91px;
+    height: 42px;
+    color: #3F3F3F;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    user-select: none;
+    box-sizing: border-box;
+    text-shadow: initial;
+    text-transform: initial;
+    word-spacing: initial;
+    letter-spacing: initial;
+    line-height: 250%;
+    transition: 0.15s;
+}
+
+MyButton:hover, MyButton:focus {
+    background: #AEAEAE;
+}
+
+MyButton[variantOutline] {
+    border: 1px solid #3D5AFE;
+    background: none;
+    color: #3D5AFE;
+}
+
+MyButton[variantOutline]:hover, MyButton[variantOutline]:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+MyButton[variantText] {
+    background: none !important;
+    border: none;
+    color: #3D5AFE;
+    box-shadow: none;
+}
+
+MyButton[variantText]:hover, MyButton[variantText]:focus {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+MyButton[disableShadow] {
+    box-shadow: none;
+    background: #3D5AFE;
+    color: #FFFFFF;
+}
+
+MyButton[disableShadow]:hover, MyButton[disableShadow]:focus {
+    background: #354fe0;
+}
+
+MyButton[disabled] {
+    background: #E0E0E0;
+    color: #9E9E9E !important;
+}
+
+MyButton[startIcon] {
+    padding-left: 1px;
+    width: 110px;
+    background: #3D5AFE;
+    color: #FFFFFF;
+}
+
+MyButton[startIcon]:hover, MyButton[startIcon]:focus {
+    background: #354fe0;
+}
+
+MyButton[endIcon] {
+    padding-left: -1px;
+    width: 110px;
+    background: #3D5AFE;
+    color: #FFFFFF;
+}
+
+MyButton[endIcon]:hover, MyButton[endIcon]:focus {
+    background: #354fe0;
+}
+
+MyButton[sizeSm] {
+    width: 73px;
+    height: 32px;
+    background: #3D5AFE;
+    color: #FFFFFF;
+    line-height: 200%;
+}
+
+MyButton[sizeSm]:hover, MyButton[sizeSm]:focus {
+    background: #354fe0;
+}
+
+MyButton[sizeMd] {
+    width: 91px;
+    height: 42px;
+    background: #3D5AFE;
+    color: #FFFFFF;
+    line-height: 250%;
+}
+
+MyButton[sizeMd]:hover, MyButton[sizeMd]:focus {
+    background: #354fe0;
+}
+
+MyButton[sizeLg] {
+    width: 101px;
+    height: 50px;
+    background: #3D5AFE;
+    color: #FFFFFF;
+    line-height: 300%;
+}
+
+MyButton[sizeLg]:hover, MyButton[sizeLg]:focus {
+    background: #354fe0;
+}
+
+MyButton[colorPrimary] {
+    background: #2962FF;
+    color: #FFFFFF;
+}
+MyButton[colorPrimary]:hover, MyButton[colorPrimary]:focus {
+    background: #0039CB;
+}
+MyButton[colorSecondary]{
+    background: #455A64;
+    color: #FFFFFF;
+}
+MyButton[colorSecondary]:hover, MyButton[colorSecondary]:focus {
+    background: #1C313A;
+}
+MyButton[colorDanger]{
+    background: #D32F2F;
+    color: #FFFFFF;
+}
+MyButton[colorDanger]:hover, MyButton[colorSecondary]:focus {
+    background: #9A0007;
+}
+
+.example {
+    margin-left: 145px;
+}
