@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>todo</h1>
+    </header>
+    <main>
+        <div class="tabs">
+            <h2 id = "tabsel1" class="tabs-active" style="display: inline-block;" onclick="changeActiveTab(1);">All</h2>
+            <h2 id = "tabsel2" style="display: inline-block;" onclick="changeActiveTab(2);">Active</h2>
+            <h2 id = "tabsel3" style="display: inline-block;" onclick="changeActiveTab(3);">Completed</h2>
+        </div>
+        <div class="tab tab1">
+            <div>
+                <input type="text" name="addtodo" id="addtodo" placeholder="add details">
+                <button onclick="addTodo();">Add</button>
+            </div>
+            <div id="checkbox-land">
+                <!-- checkboxy dodawanie -->
+                <!--<label class="todobox">Do coding challenges
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>-->
+            </div>
+        </div>
+        <div class="tab tab2">
+            <div>
+                <input type="text" name="addtodo" id="addtodo" placeholder="add details">
+                <button onclick="addTodo();">Add</button>
+            </div>
+            <div id="checkbox-land-2">
+                <!-- not done checkboxes -->
+            </div>
+        </div>
+        <div class="tab tab3">
+            <div id="checkbox-land-3">
+                <!-- done checkboxes -->
+            </div>
+            <button onclick = "deletAll();">Delete all</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
