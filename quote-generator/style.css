@@ -1,0 +1,73 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+header img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+header h5 {
+    display: inline-block;
+    font-size: 18px;
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
+header {
+    text-align: end;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.quote {
+    width: 614px;
+}
+
+main {
+    margin-left: 380px;
+}
+
+.quote-addon {
+    transition: 1s;
+    width: 672px;
+    height: 70px;
+}
+
+.quote-addon:hover {
+    background-color: #333333;
+    color: #F2F2F2;
+}
+
+#swhqu {
+    float: right;
+    position: relative;
+    top: -60px;
+    height: 32px;
+}
+
+@media (max-width: 1200px) {
+    main {
+        margin-left: 180px;
+    }
+}
+@media (max-width: 600px) {
+    main {
+        margin-left: 0px;
+    }
+    .quote {
+        width: 314px;
+    }
+}
