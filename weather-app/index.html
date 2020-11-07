@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <button onclick="search();">Search</button>
+        <button onclick="fahren();">Fahrenheit</button>
+        <button onclick="processAllData(avalibleWeatherData);">Celcius</button>
+    </header>
+    <div class="shrinf">
+        <div class="finalimg">
+            <!-- icon for the weather will be inserted here -->
+        </div>
+        <svg id="loadimg" width="4em" height="4em" viewBox="0 0 16 16" style="margin-top: 20vh;" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+                d="M4.406 1.342A5.53 5.53 0 0 1 8 0c2.69 0 4.923 2 5.166 4.579C14.758 4.804 16 6.137 16 7.773 16 9.569 14.502 11 12.687 11H10a.5.5 0 0 1 0-1h2.688C13.979 10 15 8.988 15 7.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 2.825 10.328 1 8 1a4.53 4.53 0 0 0-2.941 1.1c-.757.652-1.153 1.438-1.153 2.055v.448l-.445.049C2.064 4.805 1 5.952 1 7.318 1 8.785 2.23 10 3.781 10H6a.5.5 0 0 1 0 1H3.781C1.708 11 0 9.366 0 7.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z" />
+            <path fill-rule="evenodd"
+                d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+        </svg>
+        <h1 id="temperature"> <span id="temp1">1</span><span id="temp2">5</span><span id="symbol">℃</span> </h1>
+        <h2 id="desc">|| Description ||</h2>
+        <h4 id="whereonearth">|| Location ||</h4>
+    </div>
+    <div class="advinf">
+        <div class="grid-container">
+            <div class="card tommorow">
+                <h3>Tommorow</h3>
+                <img src="loading.svg" id="img0" alt="Loading...">
+                <div class="inline-temps">
+                    <h4 id="max0">24℃</h4>
+                    <h4 id="min0">19℃</h4>
+                </div>
+            </div>
+            <div class="card days2">
+                <h3>In 2 days</h3>
+                <img src="loading.svg" id="img1" alt="Loading...">
+                <div class="inline-temps">
+                    <h4 id="max1">24℃</h4>
+                    <h4 id="min1">19℃</h4>
+                </div>
+            </div>
+            <div class="card days3">
+                <h3>In 3 days</h3>
+                <img src="loading.svg" id="img2" alt="Loading...">
+                <div class="inline-temps">
+                    <h4 id="max2">24℃</h4>
+                    <h4 id="min2">19℃</h4>
+                </div>
+            </div>
+            <div class="card days4">
+                <h3>In 4 days</h3>
+                <img src="loading.svg" id="img3" alt="Loading...">
+                <div class="inline-temps">
+                    <h4 id="max3">24℃</h4>
+                    <h4 id="min3">19℃</h4>
+                </div>
+            </div>
+            <div class="card days5">
+                <h3>In 5 days</h3>
+                <img src="loading.svg" id="img4" alt="Loading...">
+                <div class="inline-temps">
+                    <h4 id="max4">24℃</h4>
+                    <h4 id="min4">19℃</h4>
+                </div>
+            </div>
+            <div class="Highlights">
+                <h1>Today’s Hightlights </h1>
+            </div>
+            <div class="wind">
+                <h4>Wind status</h4>
+                <h1 id="windspeed">7 km/h</h1>
+                <h3 id="winddeg">190 degrees</h3>
+            </div>
+            <div class="humidity">
+                <h4>Humidity</h4>
+                <h1 id="humidity">84%</h1>
+            </div>
+            <div class="visibility">
+                <h4>Visibility</h4>
+                <h1 id="visibility">6,4 meters</h1>
+            </div>
+            <div class="pressure">
+                <h4>Air Pressure</h4>
+                <h1 id="pressure">998 mb</h1>
+            </div>
+        </div>
+        <div class="fillbg"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

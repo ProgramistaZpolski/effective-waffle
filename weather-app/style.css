@@ -1,0 +1,198 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #E7E7EB;
+    overflow: hidden;
+}
+
+.shrinf {
+    float: left;
+    background-color: #1E213A;
+    width: 25vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#temperature {
+    font-size: 104px;
+    font-weight: 400;
+    color: #E7E7EB;
+    margin-top: 0px;
+}
+
+#temp2 {
+    font-size: 124px;
+    font-weight: 500;
+    line-height: 169.06px;
+}
+
+#desc {
+    color: #A09FB1;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#whereonearth {
+    color: #88869D;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.finalimg {
+    display: none;
+    margin-top: 7vh;
+    background-image: url("./Cloud-background.png");
+    background-size: 100%;
+    height: 270px;
+}
+
+.advinf {
+    background-color: #100E1D;
+    float: right;
+    height: 100vh;
+    width: 75vw;
+}
+
+.grid-container {
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.6fr 0.6fr 0.8fr 0.9fr 1.1fr;
+    gap: 48px 26px;
+    grid-template-areas: "tommorow days2 days3 days4 days5" "Highlights Highlights Highlights Highlights Highlights" "wind wind . humidity humidity" "wind wind . humidity humidity" "visibility visibility . pressure pressure";
+}
+
+.tommorow {
+    grid-area: tommorow;
+}
+
+.days2 {
+    grid-area: days2;
+}
+
+.days3 {
+    grid-area: days3;
+}
+
+.days4 {
+    grid-area: days4;
+}
+
+.days5 {
+    grid-area: days5;
+}
+
+.Highlights {
+    grid-area: Highlights;
+    font-weight: 700;
+}
+
+.wind {
+    grid-area: wind;
+    width: 328px;
+    height: 204px;
+    background-color: #1E213A;
+    text-align: center;
+}
+
+.humidity {
+    grid-area: humidity;
+    width: 328px;
+    height: 204px;
+    background-color: #1E213A;
+    text-align: center;
+}
+
+.visibility {
+    grid-area: visibility;
+    width: 328px;
+    height: 159px;
+    background-color: #1E213A;
+    text-align: center;
+}
+
+.pressure {
+    grid-area: pressure;
+    width: 328px;
+    height: 159px;
+    background-color: #1E213A;
+    text-align: center;
+}
+
+.card {
+    background-color: #1E213A;
+    width: 120px;
+    height: 177px;
+    text-align: center;
+}
+
+.card img {
+    width: 64px;
+}
+
+.inline-temps h4 {
+    display: inline;
+    padding-right: 5px;
+}
+
+header {
+    position: fixed;
+}
+
+header button {
+    border: none;
+    width: 100px;
+    height: 25px;
+    font-family: 'Montserrat', 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+
+header button:hover {
+    background-color: #dadada;
+}
+
+.fillbg {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+    }
+    .shrinf, .advinf {
+        float: none;
+        width: 100vw;
+    }
+    .grid-container {
+        height: 100%;
+        background-color: #100E1D;
+        margin-top: 0vh;
+        margin-left: 10vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1.6fr 0.6fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 48px 26px;
+        grid-template-areas: "tommorow days2 . . ." "days3 days4 . . ." "days5 . . . ." "Highlights Highlights Highlights Highlights Highlights" "wind wind wind wind wind" "humidity humidity humidity humidity humidity" "visibility visibility visibility visibility visibility" "pressure pressure pressure pressure pressure";
+    }
+    .fillbg {
+        position: relative;
+        top: 0vh;
+        background-color: #100E1D;
+        height: 120vh;
+        z-index: -100;
+        display: block;
+    }
+}
+
+@media (max-width: 1111px) {
+    .wind, .humidity {
+        height: 160px;
+    }
+    .visibility, .pressure {
+        margin-top: 100px;
+    }
+}
