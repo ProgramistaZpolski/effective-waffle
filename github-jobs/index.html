@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Github Jobs</title>
+</head>
+<body>
+    <header>
+        <h1><span class="text-700">Github</span> <span class="text-300">Jobs</span></h1>
+    </header>
+    <div class="middlesearch">
+        <div class="searchyes">
+            <input type="text" name="jobsearch" id="jobsearch" placeholder=" Title, companies, expertise or benefits">
+            <button onclick="searchJobs(true);">Search</button>
+        </div>
+    </div>
+    <main>
+        <div class="filterjobs">
+            <input type="checkbox" name="fulltime" id="fulltime">
+            <label for="fulltime">Full Time</label>
+            <h3>Location</h3>
+            <input type="text" name="city" id="city" placeholder="City, state, zip code or country"><br><br><br>
+            <input type="checkbox" name="amsterdam" id="amsterdam">
+            <label for="amsterdam">Amsterdam</label><br><br>
+            <input type="checkbox" name="london" id="london">
+            <label for="london">London</label><br><br>
+            <input type="checkbox" name="berlin" id="berlin">
+            <label for="berlin">Berlin</label><br><br>
+            <input type="checkbox" name="newyork" id="newyork">
+            <label for="newyork">New York</label><br>
+            <button id="serbtn" onclick="searchJobs(false);">Search</button>
+        </div>
+        <div class="listjobs">
+        </div>
+        <div class="sk-fading-circle">
+            <div class="sk-circle1 sk-circle"></div>
+            <div class="sk-circle2 sk-circle"></div>
+            <div class="sk-circle3 sk-circle"></div>
+            <div class="sk-circle4 sk-circle"></div>
+            <div class="sk-circle5 sk-circle"></div>
+            <div class="sk-circle6 sk-circle"></div>
+            <div class="sk-circle7 sk-circle"></div>
+            <div class="sk-circle8 sk-circle"></div>
+            <div class="sk-circle9 sk-circle"></div>
+            <div class="sk-circle10 sk-circle"></div>
+            <div class="sk-circle11 sk-circle"></div>
+            <div class="sk-circle12 sk-circle"></div>
+          </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
