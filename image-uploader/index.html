@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h2 class="flex-all">Upload your image</h2>
+        <div class="break"></div>
+        <h4 class="grey-text">Accepted files: .png, .jpeg, .gif</h4>
+        <button class="mainbutton">
+            <img src="./image.svg" alt="Drag and drop">
+            <form action="post">
+                <input type="file" name="filedrop" id="filedrop">
+            </form>
+        </button>
+        <button class="bluebutton" id="updbtn" onclick="finupd();">
+            Upload
+        </button>
+        <progress></progress>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
