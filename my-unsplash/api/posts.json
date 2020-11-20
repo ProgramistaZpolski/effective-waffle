@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Street",
+        "img": "./img/arturs-kipsts-p0AtyWl6Sf4-unsplash.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    },
+    {
+        "label": "Abstraction",
+        "img": "./img/background-4561421_1920.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    },
+    {
+        "label": "Rocks",
+        "img": "./img/daniel-lincoln-mB-u-DFQ9J8-unsplash.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    },
+    {
+        "label": "Mountains in Switzerland",
+        "img": "./img/switzerland-2571561_1920.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    },
+    {
+        "label": "Water",
+        "img": "./img/tim-mossholder-ApDv6VwCyH8-unsplash.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    },
+    {
+        "label": "Trees",
+        "img": "./img/trees-5749406_1920.jpg",
+        "password": "e90c5e3f1863d45904e59920a055d594"
+    }
+]

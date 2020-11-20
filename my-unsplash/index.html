@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unsplash</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="./my_unsplash_logo.svg" alt="MyUnsplash Logo">
+        <input type="text" name="search" id="search" placeholder="Search..." oninput="searchPosts();">
+        <button onclick="showModal(true);">Upload an Image</button>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close" onclick="showModal(false);">&times;</span>
+                <h2>Add a new photo</h2>
+                <form action="api/upload.php" method="get">
+                    <label for="label">Label</label><br><br>
+                    <input type="text" name="label" id="label" placeholder="PHP is nice"><br><br>
+                    <label for="linkimg">URL to image</label><br><br>
+                    <input type="text" name="linkimg" id="linkimg"
+                        placeholder="https://www.php.net/images/logos/php-logo.svg"><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="area1"></div>
+        <div class="area2"></div>
+        <div class="area3"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
