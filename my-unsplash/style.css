@@ -143,3 +143,28 @@ main {
 form input {
     width: 90%;
 }
+
+@media (max-width: 600px) {
+    .area1 {
+        grid-area: none;
+    }
+
+    .area2 {
+        grid-area: none;
+    }
+
+    .area3 {
+        grid-area: none;
+    }
+    main {
+        display: block;
+    }
+    .imgcard img {
+        width: 70vw;
+        border-radius: 5px;
+    }
+    
+    header button {
+        margin-left: 10vw;
+    }
+}
